@@ -1,49 +1,60 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - EjemploGitApp</title>
+    <title>@ViewData["Title"] - MessiTechApp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/EjemploGitApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/messitech.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">EjemploGitApp</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MessiTech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Carrera">Carrera</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Tecnologia">Tecnología</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Inspiración">Inspiración</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
+
+    <div class="container text-center">
         <main role="main" class="pb-3">
-            @RenderBody()
+            <h1 class="display-4 mt-4">🌟 Messi: Inspiración para Desarrolladores</h1>
+            <p class="lead">Como Messi domina el campo, tú puedes dominar el código. Constancia, creatividad y precisión, en cada línea que escribes.</p>
+            
+            <img src="~/images/messi-codigo.jpg" alt="Messi y código" class="img-fluid rounded shadow mt-4 mb-4" />
+
+            <section>
+                <h2>⚽ Código como juego hermoso</h2>
+                <p>Messi nos enseña que cada pase cuenta. En el desarrollo, cada método, clase y refactorización tienen propósito y estilo. Aprende a construir software con visión y elegancia.</p>
+            </section>
+
+            <section>
+                <h2>🚀 Software con pasión</h2>
+                <p>Messi nunca deja de mejorar, y tú tampoco deberías. Desde algoritmos eficientes hasta interfaces intuitivas, la tecnología evoluciona como el fútbol moderno.</p>
+            </section>
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - EjemploGitApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer bg-dark text-light mt-5">
+        <div class="container text-center py-3">
+            &copy; 2025 - MessiTechApp - "El código también se juega"
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
-</html>
