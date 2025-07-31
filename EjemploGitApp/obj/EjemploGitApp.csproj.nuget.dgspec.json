@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejemplo3\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejemplo3\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj",
         "packagesPath": "C:\\Users\\reynaldo.henriquez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejemplo3\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\obj\\",
+=======
+    "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj",
+        "projectName": "EjemploGitApp",
+        "projectPath": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj",
+        "packagesPath": "C:\\Users\\reynaldo.henriquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\obj\\",
+>>>>>>> 13798fe55bbe2d31865f20c1c1387c46dec51ec5
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\reynaldo.henriquez\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "mq77+pudtiU=",
   "success": true,
   "projectFilePath": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejemplo3\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj",
+=======
+  "dgSpecHash": "8x2VtSPaWeI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj",
+>>>>>>> 13798fe55bbe2d31865f20c1c1387c46dec51ec5
   "expectedPackageFiles": [],
   "logs": []
 }
