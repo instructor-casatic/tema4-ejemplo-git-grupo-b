@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brallan.sanchez\\Documents\\Modulo5\\GrupoB\\Tema4\\Ejemplo1\\EjemploGitApp\\EjemploGitApp.csproj": {}
+    "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brallan.sanchez\\Documents\\Modulo5\\GrupoB\\Tema4\\Ejemplo1\\EjemploGitApp\\EjemploGitApp.csproj": {
+    "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brallan.sanchez\\Documents\\Modulo5\\GrupoB\\Tema4\\Ejemplo1\\EjemploGitApp\\EjemploGitApp.csproj",
+        "projectUniqueName": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj",
         "projectName": "EjemploGitApp",
-        "projectPath": "C:\\Users\\brallan.sanchez\\Documents\\Modulo5\\GrupoB\\Tema4\\Ejemplo1\\EjemploGitApp\\EjemploGitApp.csproj",
-        "packagesPath": "C:\\Users\\brallan.sanchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brallan.sanchez\\Documents\\Modulo5\\GrupoB\\Tema4\\Ejemplo1\\EjemploGitApp\\obj\\",
+        "projectPath": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\EjemploGitApp.csproj",
+        "packagesPath": "C:\\Users\\reynaldo.henriquez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\reynaldo.henriquez\\Documents\\Modulo5\\Tema4\\Ejmeplo2\\tema4-ejemplo-git-grupo-b\\EjemploGitApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brallan.sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\reynaldo.henriquez\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
