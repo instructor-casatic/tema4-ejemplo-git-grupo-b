@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EjemploGitApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27bb7c736b43df7858c79c87a9f0f6812fd0f1e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2833f28128380de23be5db1484c4c1c3be9f4199")]
 [assembly: System.Reflection.AssemblyProductAttribute("EjemploGitApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EjemploGitApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
