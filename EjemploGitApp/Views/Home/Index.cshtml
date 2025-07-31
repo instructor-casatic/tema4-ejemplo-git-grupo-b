@@ -1,8 +1,56 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 100px 20px;
+        animation: aparecer 1.5s ease-in-out;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 1.5em;
+        margin-bottom: 30px;
+    }
+
+    .boton-cta {
+        background-color: #ffffff;
+        color: #007acc;
+        padding: 15px 30px;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+    }
+
+    .boton-cta:hover {
+        background-color: #e0f7ff;
+    }
+
+    @@keyframes aparecer {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+
+<div class="hero">
+    <h1>¡Bienvenido a tu aplicación web!</h1>
+    <p>Descubre cómo ASP.NET Core puede ayudarte a crear experiencias digitales modernas, rápidas y seguras.</p>
+    <a href="/Acerca" class="boton-cta">Saber más</a>
 </div>
